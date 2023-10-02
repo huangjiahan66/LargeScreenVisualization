@@ -12,7 +12,7 @@
         :Horidata="data.regionData"
       />
       <!-- 雷达图 -->
-      <RadarBar class="h-1/3 box-border pb-4" />
+      <RadarBar class="h-1/3 box-border pb-4" :data="data.riskData" />
       <!-- 数据传递关系图 -->
       <Relation class="h-1/3" />
     </div>
