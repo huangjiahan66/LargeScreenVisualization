@@ -24,7 +24,7 @@
     </div>
     <div class="flex-1 bg-opacity-50 bg-slate-800 p-3 flex flex-col">
       <!-- 竖向柱状图 -->
-      <VerticalBar class="h-1/3 box-border pb-4" />
+      <VerticalBar class="h-1/3 box-border pb-4" :data="data.serverData" />
       <!-- 环形资源站比图 -->
       <RadiueBar class="h-1/3 box-border pb-4" />
       <!-- 文档云图 -->
